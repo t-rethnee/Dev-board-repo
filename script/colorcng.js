@@ -1,6 +1,6 @@
 console.log("hero");
 // Array of colors to cycle through
-const colors = ['#FF5733', '#33FF57', '#3357FF', '#F3FF33', '#FF33E3'];
+const colors = ['#ffdab9', '#e6e6fa', '#b2f0e8', '#fdd5c8', '#c3e8ff'];
 let currentIndex = 0;
 
 // Function to change background color
