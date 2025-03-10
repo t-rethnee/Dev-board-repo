@@ -9,8 +9,8 @@
 </head>
 <body class=" bg-slate-100 min-h-screen" >
     <section class="flex items-center justify-center">
-    <header class="border-3 w-[1200px] h-[100px] mt-[30px] flex items-center bg-white">
-<nav class="bg-white flex border-2">
+    <header class=" w-[1200px] h-[100px] mt-[30px] flex items-center bg-white">
+<nav class="bg-white flex ">
     <div class="flex items-center space-x-2">
     <img class="w-[50px] h-[50px] rounded-lg "   src="assets/logo.png" alt="">
     <h1 class="text-4xl w-[160px] h-[50px]"> <span class="text-gray-600 font-medium 
@@ -19,7 +19,7 @@
 </div>
 <div class="flex ml-[780px] ">
   
-   <div class="w-[100px] h-[50px] bg-gray-200 border-2 rounded-full mt-3 flex"> 
+   <div class="w-[100px] h-[50px] bg-gray-200  rounded-full mt-3 flex"> 
    
     <img class="mt-4 ml-3 w-[20px] h-[20px]" src="assets/checkbox.png" alt="">
     <span  id="taskCompleted" class="mt-2 ml-3 font-bold text-2xl">25</span>
@@ -32,33 +32,33 @@
 </section>
     <main>
         <div class="box-logs flex ">
-       <div class="card-head-cards  border-2 border-blue-600  w-[850px] h-[790px] ml-[160px]
-      bg-slate-50">
-        <div class="3-card-container flex  rounded-xl border-2 w-[848px] h-[120px] border-red-800 bg-slate-100">
-           <div class="w-[180px] h-[120px] border-2 rounded-lg ml-4">
-            <div class="task flex mt-7 gap-7 ">
+       <div class="card-head-cards  mt-4  border-blue-600  w-[850px] h-[790px] ml-[160px]
+      bg-white">
+        <div class="3-card-container flex  rounded-xl  w-[848px] h-[120px] border-red-800 bg-white">
+           <div class="w-[180px] h-[120px]  rounded-lg ml-4 bg-slate-100">
+            <div class="task flex mt-7 gap-7 bg-slate-100 ">
            <div class="w-[60px] h-[60px] bg-white rounded-full items-center ml-4"> <img class="ml-3 w-[28px] h-[28px] mt-4" src="assets/checkbox.png" alt=""></div>
             <h4 class="font-medium text-base text-gray-700">Task Assigned <br><span id="taskAssigned" class="font-bold text-xl"> 5</span> </h4>
+            </div>
         </div>
-        </div>
-            <div id="discoNew"  class="discover border-3 rounded-xl ml-4 flex w-[400px] bg-gradient-to-br from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8]
+            <div id="discoNew"  class="discover  rounded-xl ml-5 flex w-[410px] bg-gradient-to-br from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8]
            items-center  ">
             <img class="w-[40px] h-[40px] ml-5" src="assets/board.png" alt="">
             <h1 class="text-xl font-normal text-white ml-6">Discover Something <br>New Today! </h1>
              </div>  
-               <div class="date border-2 w-[190px] h-[120px] ml-8 rounded-xl bg-slate-100 flex ">
+               <div class="date  w-[190px] h-[120px] ml-4 rounded-xl bg-slate-100 flex ">
                 <div class="w-[50px] h-[50px] bg-white rounded-full  ml-3 mt-5 "><img class=" ml-3 w-[28px] h-[28px] mt-1" src="assets/calender.png" alt=""></div>
                  <div id="date" class="mt-5 ml-1" ></div>  
                  </div> 
         </div>
         
-       <div id="card-container" class=" border-yellow-400 border-3 mt-8 grid grid-cols-3 ml-3">
-        <div  id="card-1" class=" border-2">
+       <div id="card-container" class=" border-yellow-400 mt-8 grid grid-cols-3 ml-3">
+        <div  id="card-1" class=" ">
             <div class="card card-dash bg-slate-100 rounded-lg w-[260px] h-[270px]">
             <div class="card-body">
-                <h3 class="w-[80px] h-[30px] border-2 ml-2 p-1 b bg-white rounded-lg font-medium">ShopEase</h3>
+                <h3 class="w-[80px] h-[30px]  ml-2 p-1 b bg-white rounded-lg font-medium">ShopEase</h3>
               <h2 class="card-title">Fix Mobile Button Issue</h2>
-              <p class=" w-[190px] mt-4  border-2 bg-white rounded-lg text-xs text-gray-500">Debug using Chrome <br>
+              <p class=" w-[190px] mt-4   bg-white rounded-lg text-xs text-gray-500">Debug using Chrome <br>
               Devtools,check for overlappi.. </p>
               <div class="card-actions justify-end">
                 <p><span class="text-gray-500">Deadline</span> <br> <span class="font-bold">21 March 2025</span></p>
@@ -69,9 +69,9 @@
         <div class="card-2">
             <div class="card card-dash bg-slate-100 rounded-lg w-[260px] h-[270px]">
             <div class="card-body">
-                <h3 class="w-[80px] h-[30px] border-2 ml-2 p-1 b bg-white rounded-lg font-medium">CloudSync</h3>
+                <h3 class="w-[80px] h-[30px]  ml-2 p-1 b bg-white rounded-lg font-medium">CloudSync</h3>
               <h2 class="card-title">Add Dark Mode</h2>
-              <p class=" w-[190px] border-2 bg-white rounded-lg mt-4 text-xs text-gray-500">Store the user's preference in <br>
+              <p class=" w-[190px]  bg-white rounded-lg mt-4 text-xs text-gray-500">Store the user's preference in <br>
               localStorage,update CSS vari.. </p>
               <div class="card-actions justify-end">
                 <p><span class="text-gray-500">Deadline</span> <br><span class="font-bold">21 March 2025</span></p>
@@ -82,9 +82,9 @@
         <div class="card-3">
             <div class="card card-dash bg-slate-100 rounded-lg w-[260px] h-[270px] ">
             <div class="card-body">
-                <h3 class="w-[80px] h-[30px] border-2 ml-2 p-1 b bg-white rounded-lg font-medium">SwiftPay</h3>
+                <h3 class="w-[80px] h-[30px]  ml-2 p-1 b bg-white rounded-lg font-medium">SwiftPay</h3>
               <h2 class="card-title">Optimize Home page</h2>
-              <p class=" w-[190px] border-2 bg-white rounded-lg mt-4 text-xs text-gray-500">Debug using Chrome <br>Devtools,check for overlappi.. </p>
+              <p class=" w-[190px]  bg-white rounded-lg mt-4 text-xs text-gray-500">Debug using Chrome <br>Devtools,check for overlappi.. </p>
               <div class="card-actions justify-end">
                 <p><span class="text-gray-500">Deadline</span> <br><span class="font-bold">21 March 2025</span></p>
                 <button class="btn btn-primary" onclick="completeTask(this, 'optimize Home page')">Completed</button>
@@ -94,9 +94,9 @@
         <div class="card-4">
             <div class="card card-dash bg-slate-100 rounded-lg w-[260px] h-[270px] mt-12">
             <div class="card-body">
-                <h3 class="w-[80px] h-[30px] border-2 ml-2 p-1 b bg-white rounded-lg font-medium">Meta</h3>
+                <h3 class="w-[80px] h-[30px]  ml-2 p-1 b bg-white rounded-lg font-medium">Meta</h3>
               <h2 class="card-title">Add new emoji</h2>
-              <p class=" w-[190px] border-2 bg-white rounded-lg mt-4 text-xs text-gray-500">Debug using Chrome <br>Devtools,check for overlappi.. 
+              <p class=" w-[190px]  bg-white rounded-lg mt-4 text-xs text-gray-500">Debug using Chrome <br>Devtools,check for overlappi.. 
                </p>
               <div class="card-actions justify-end">
                 <p><span class="text-gray-500">Deadline</span> <br><span class="font-bold">21 March 2025</span></p>
@@ -107,9 +107,9 @@
         <div class="card-5">
             <div class="card card-dash bg-slate-100 rounded-lg w-[260px] h-[270px] mt-12">
             <div class="card-body">
-                <h3 class="w-[90px] h-[30px] border-2 ml-2 p-1 b bg-white rounded-lg font-medium">Google LLC</h3>
+                <h3 class="w-[90px] h-[30px]  ml-2 p-1 b bg-white rounded-lg font-medium">Google LLC</h3>
               <h2 class="card-title">Integrate OpenAI API</h2>
-              <p class=" w-[190px] border-2 bg-white rounded-lg mt-4 text-xs text-gray-500">Debug using chrome <br> Devtools,check for overlappi.. </p>
+              <p class=" w-[190px]  bg-white rounded-lg mt-4 text-xs text-gray-500">Debug using chrome <br> Devtools,check for overlappi.. </p>
               <div class="card-actions justify-end">
                 <p><span class="text-gray-500">Deadline</span> <br> <span class="font-bold">21 March 2025</span></p>
                 <button class="btn btn-primary" onclick="completeTask(this, 'OpenAI API')">Completed</button>
@@ -119,9 +119,9 @@
         <div class="card-6">
             <div class="card card-dash bg-slate-100 rounded-lg w-[260px] h-[270px] mt-12">
             <div class="card-body">
-                <h3 class="w-[80px] h-[30px] border-2 ml-2 p-1 b bg-white rounded-lg font-medium">Glassdoar</h3>
+                <h3 class="w-[80px] h-[30px]  ml-2 p-1 b bg-white rounded-lg font-medium">Glassdoar</h3>
               <h2 class="card-title">Improve Job searching</h2>
-              <p class=" w-[190px] border-2 bg-white rounded-lg mt-4 text-xs text-gray-500">Debug using chrome <br> Devtools,check for overlappi.. </p>
+              <p class=" w-[190px]  bg-white rounded-lg mt-4 text-xs text-gray-500">Debug using chrome <br> Devtools,check for overlappi.. </p>
               <div class="card-actions justify-end">
                 <p><span class="text-gray-500">Deadline</span> <br > <span class="font-bold">21 March 2025</span></p>
                 <button class="btn btn-primary" onclick=" completeTaskWithDoubleAlert(this,'Improve Job searching') ">Completed</button>
@@ -135,7 +135,7 @@
 
 
       </div>
-      <div class="activity-log border-2 border-red-600 w-[310px] ml-[35px] bg-white rounded-xl">
+      <div class="activity-log  border-red-600 w-[310px] ml-[35px] bg-white rounded-xl">
         <div class="flex gap-3 ml-16 mt-5">
            <img class="w-[24px] h-[24px]" src="assets/activity.png" alt="">
            <h4 class="text-xl font-medium ">Activity Log</h4>
